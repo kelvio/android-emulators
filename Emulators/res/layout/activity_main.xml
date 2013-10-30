@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="5dp"  
+    android:background="@color/custom_gray"  
+    tools:context=".MainActivity" >
+
+    <ProgressBar
+        android:id="@+id/activityMainProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ListView
+        android:id="@+id/activityMainListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activityMainDownloadRomsButtom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="2dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/activityMainDownloadRomsButtom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activityMainListView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/activityMainListView"
+        android:textColor="#FFFFFF"
+        android:text="@string/download_roms_app" />
+
+</RelativeLayout>

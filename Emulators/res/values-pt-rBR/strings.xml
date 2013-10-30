@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emuladores</string>
+    <string name="action_settings">Configurações</string>    
+    <string name="title_activity_main">Consoles</string>
+    <string name="title_activity_emulators">Emuladores</string>
+    <string name="title_activity_emulator">Emulador</string>
+    
+    <string name="description">Descrição</string>
+	
+    <string name="download_roms_app">Baixar app Roms</string>
+	<string name="open_roms_app">Abrir app Roms</string>
+	
+	<string name="download">Baixar</string>
+	<string name="open">Abrir</string>
+	
+</resources>

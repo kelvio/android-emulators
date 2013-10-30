@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emulators</string>
+    <string name="action_settings">Settings</string>    
+    <string name="title_activity_main">Consoles</string>
+    <string name="title_activity_emulators">Emulators</string>
+    <string name="title_activity_emulator">Emulator</string>
+	<string name="description">Description</string>
+	<string name="download_roms_app">Download Roms App</string>
+	<string name="open_roms_app">Open Roms App</string>
+	
+	<string name="download">Download</string>
+	<string name="open">Open</string>
+</resources>
